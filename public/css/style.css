@@ -1,0 +1,40 @@
+body {
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.navbar-brand {
+  letter-spacing: 0.3px;
+}
+
+.card {
+  border-radius: 0.75rem;
+}
+
+.btn {
+  border-radius: 0.5rem;
+}
+
+table.dataTable thead th {
+  white-space: nowrap;
+}
+
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select {
+  border-radius: 0.5rem;
+}
+
+.action-btn {
+  margin: 0 2px;
+}
+
+.select2-container--bootstrap-5 .select2-selection {
+  min-height: 38px;
+}
